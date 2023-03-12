@@ -1,0 +1,138 @@
+#canvas {
+    border: 5px solid black;
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;;
+  }
+
+body {
+    background-image: url("/img/background2.png");
+    text-align: center;
+    position: relative;
+    user-zoom: fixed;
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.button1 {
+    text-align: middle;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: auto;
+    height: 30px;
+    background-color: rgb(232, 232, 232);
+    border-radius:  3px;
+    color: #000000;
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-size:40px;
+    user-select: none;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(253, 253, 253);
+}
+
+p {
+    font-family: 'Press Start 2P';
+    font-size:20px;
+    user-select: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(253, 253, 253);
+}
+
+h2 {
+    font-family: 'Press Start 2P';
+    user-select: none;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    color: rgb(11, 0, 64);
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+#player {
+    user-select: none;
+}
+
+.social {
+    padding: 50px;
+    display: flexbox;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.3;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    text-align: center;
+    text-decoration: none;
+    background: #ffffff;
+    border-radius: 50%;
+    color: rgb(46, 78, 185);
+  }
+  
+  /* PayPal */
+  .fa-cc-paypal {
+    text-align: center;
+    text-decoration: none;
+    background: #ececec;
+    border-radius: 10%;
+    color: #00233d;
+  }
+
+  /* YouTube */
+  .fa-youtube {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+    background: white;
+    color: #cd0000;
+  }

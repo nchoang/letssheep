@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Link rel="Stylesheet" type="text/css" href="./login.css">
+        <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+        rel="stylesheet"
+      /> 
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <title>Let's Sheep</title>
+
+<body>
+    <div class="formcontainer">
+        <div class="form">
+            <form action="action_page.php" method="post">
+                <div class="imgcontainer">
+                  <img src="/img/sheep_login.gif" alt="Avatar" class="avatar">
+                </div>
+              
+                <div class="container">
+                  <label for="uname"><b>Player name</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+              
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+
+                  <button type="submit">Sign In</button>
+                  <span class="psw">create <a href="signup.html">new account</a></span>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>
